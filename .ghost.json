@@ -1,0 +1,12 @@
+{
+  "development": {
+    "apiUrl": "https://luisblog.herokuapp.com",
+    "contentApiKey": "ca75eb95e019bf91e856d144ea",
+    "version": "v2"
+  },
+  "production": {
+    "apiUrl": "https://luisblog.herokuapp.com",
+    "contentApiKey": "ca75eb95e019bf91e856d144ea",
+    "version": "v2"
+  }
+}
