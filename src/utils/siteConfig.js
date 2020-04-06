@@ -1,7 +1,7 @@
 module.exports = {
     siteUrl: `https://luisparrapulido.com`, // Site domain. Do not include a trailing slash!
 
-    postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
+    postsPerPage: 8, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
     siteTitleMeta: `Luis Blog`, // This allows an alternative site title for meta data for pages.
     siteDescriptionMeta: `Mi sitio web`, // This allows an alternative site description for meta data for pages.
