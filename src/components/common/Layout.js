@@ -40,10 +40,11 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             <div className="site-mast">
                                 <div className="site-mast-left">
                                     <Link to="/">
-                                        {site.logo ?
+                                        <h1 className="site-logo">💻 LuisDev </h1>
+                                        {/* {site.logo ?
                                             <img className="site-logo" src={site.logo} alt={site.title} />
                                             : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
-                                        }
+                                        } */}
                                     </Link>
                                 </div>
 
@@ -61,7 +62,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             <nav className="site-nav">
                                 
                                 <div className="site-nav-right">
-                                    <Link className="site-nav-button" to="/about">About</Link>
+                                    {/* <Link className="site-nav-button" to="/about">About</Link> */}
                                 </div>
                             </nav>
                         </div>

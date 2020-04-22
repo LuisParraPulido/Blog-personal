@@ -688,10 +688,13 @@ h6 {
 }
 
 .site-logo {
-    width: 150px;
-    height: 150px; 
-    position: absolute;
-    top: -38px;
+    font-size: 2em;
+    height: 25px; 
+    text-decoration: none;
+}
+
+.site-mast-left a:hover {
+    text-decoration: none;
 }
 
 .site-mast {
@@ -707,6 +710,12 @@ h6 {
 
 .site-mast-right .site-nav-item:last-child {
     padding-right: 0;
+}
+
+@media (max-width: 500px) {
+    .site-mast {
+        flex-direction: column;
+    }
 }
 
 .site-banner {
